@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         
         // 1.
         // Normalde http bağlantılarına izin verilmediği için info.plist'ten ayarları yapmalıyım.(App Transform Security Settings) Bu seçeneği ekledikten sonra yandaki ok tuşunu aşağı yönde çevirip tekrar + yapıp Allow Arbitrary Loads --> YES yaparsam artık http için izin verilir.
-        let url = URL(string: "http://data.fixer.io/api/latest?access_key=35905cde988da73837135df87b03ba95")
+        let url = URL(string: "http://data.fixer.io/api/latest?access_key=YOUR API_KEY")
         
         // Projemin her yerinden erişilebilecek
         let session = URLSession.shared
