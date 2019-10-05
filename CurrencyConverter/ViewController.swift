@@ -83,10 +83,6 @@ class ViewController: UIViewController {
         }
         // Yukarıdaki tüm işlemlerin aslında devam edebilmesi için bunu kullanmak zorundayım !
         task.resume()
-        
- 
     }
-    
-
 }
 
